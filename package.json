@@ -2,10 +2,15 @@
   "name": "drop-and-upload",
   "version": "1.0.0",
   "description": "A plug and play react component to upload files by drag and drop",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --mode development"
+    "start": "webpack-dev-server --mode development",
+    "transpile": "babel src -d dist --copy-files",
+    "prepublishOnly": "npm run transpile",
+    "build": "webpack --mode production",
+    "deploy": "gh-pages -d examples/dist",
+    "publish-demo": "npm run build && npm run deploy"
   },
   "repository": {
     "type": "git",
@@ -23,13 +28,19 @@
     "url": "https://github.com/Vishu-Chaudhary/drop-and-upload/issues"
   },
   "homepage": "https://github.com/Vishu-Chaudhary/drop-and-upload#readme",
+  "peerDependencies": {
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
   "devDependencies": {
+    "@babel/cli": "^7.0.0",
     "@babel/core": "^7.1.6",
     "@babel/plugin-proposal-class-properties": "^7.1.0",
     "@babel/preset-env": "^7.1.6",
     "@babel/preset-react": "^7.0.0",
-    "babel-loader": "^8.0.4",
+    "babel-loader": "^8.0.0-beta.6",
     "css-loader": "^2.0.2",
+    "gh-pages": "^2.0.1",
     "html-webpack-plugin": "^3.2.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
