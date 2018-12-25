@@ -1,0 +1,41 @@
+{
+  "name": "drop-and-upload",
+  "version": "1.0.0",
+  "description": "A plug and play react component to upload files by drag and drop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vishu-Chaudhary/drop-and-upload.git"
+  },
+  "keywords": [
+    "react",
+    "drag",
+    "drop",
+    "upload"
+  ],
+  "author": "Vishal Sanserwal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vishu-Chaudhary/drop-and-upload/issues"
+  },
+  "homepage": "https://github.com/Vishu-Chaudhary/drop-and-upload#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^2.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.28.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
