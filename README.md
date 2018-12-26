@@ -45,6 +45,12 @@ and add component to render with callback to get droped files `getFiles`
 | uploadLimit   | number|Number of images allowed to be uploaded | 
 | getFiles     |  function()|callback passed to component for getting uploaded files      | 
 
+### FAQ
+
+##### I'm not able to see any css
+
+Check if webpack is properly configured. Try importing css  `import 'drop-and-upload/dist/style.css`
+or you can simply copy css from file in `node_modules/drop-and-upload/dist/style.css` and use it in your css files
 
 ### Need any help?
 Contact me anytime at vsanse@outlook.com
