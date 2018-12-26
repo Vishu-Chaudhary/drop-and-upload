@@ -1,6 +1,6 @@
 {
   "name": "drop-and-upload",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A plug and play react component to upload files by drag and drop",
   "main": "dist/index.js",
   "scripts": {
