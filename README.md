@@ -45,3 +45,7 @@ and add component to render with callback to get droped files `getFiles`
 | uploadLimit   | number|Number of images allowed to be uploaded | 
 | getFiles     |  function()|callback passed to component for getting uploaded files      | 
 
+
+### Need any help?
+Contact me anytime at vsanse@outlook.com
+
