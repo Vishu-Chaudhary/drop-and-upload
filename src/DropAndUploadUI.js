@@ -19,6 +19,11 @@ const DropAndUploadUI = (props) =>
                 <div className="addAnother" onClick={props.events.showOpenFileDlg}> Add Another</div>
             }
             {
+                props.values.maxFilesUploaded &&  
+                props.values.files.length===0 &&
+                <div className="addAnother" onClick={props.events.showOpenFileDlg}> Add Files</div>
+            }
+            {
                 props.values.maxFilesUploaded &&
                 <div style={{ color: "red" }}>
                     <em>Maximum {props.values.uploadLimit} images allowed</em>
