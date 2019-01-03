@@ -10,7 +10,7 @@ class DropAndUpload extends Component {
         files: [],
         dragOver: false,
         maxFilesUploaded: false,
-        uploadLimit:this.props.uploadLimit | 5
+        uploadLimit:this.props.uploadLimit || 5
     }
 
     onFilesOver = (event) => {
