@@ -1,6 +1,6 @@
 # React component for drag and drop to upload files
 
-[![npm version](https://badge.fury.io/js/drop-and-upload.svg)](//npmjs.com/package/drop-and-upload)
+[![npm version](https://badge.fury.io/js/drop-and-upload.svg)](//npmjs.com/package/drop-and-upload) [![Code Climate](https://img.shields.io/codeclimate/maintainability/Vishu-Chaudhary/drop-and-upload.svg?style=flat)](https://codeclimate.com/github/Vishu-Chaudhary/drop-and-upload)
 
 A plug and play react component to upload files by drag and drop. Files dropped will be returned as [Files Array](https://w3c.github.io/FileAPI/)
 
